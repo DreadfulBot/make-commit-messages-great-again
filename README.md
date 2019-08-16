@@ -1,27 +1,27 @@
-# Пример настройки commitizen и commitlint
+# Example of commitizen and commitlint setup
 
-## Зависимости
+## Dependencies
 
 ```
 npm install --global commitizen
 ```
 
-## Установка
+## Installation
 
-Скачать код из репозитория и установить зависимости:  
+Download source code from repo and install dependencies:
 
 ```
-git clone https://github.com/tashbenbetov/make-commit-messages-great-again.git
+git clone https://github.com/DreadfulBot/make-commit-messages-great-again.git
 cd make-commit-messages-great-again
 npm i
 ```
 
-Сделать изменение в проекте и зафиксировать их при помощи `commitizen`
+Make changes in project and commit them with `commitizen`:
 
 ```
 git cz
 ```
 
-## Пример
+## Example
 
-![пример использования commitizen](https://cdn.jsdelivr.net/gh/tashbenbetov/make-commit-messages-great-again@master/docs/demo.svg)
+![example of usage commitizen](https://cdn.jsdelivr.net/gh/tashbenbetov/make-commit-messages-great-again@master/docs/demo.svg)
